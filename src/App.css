@@ -1,0 +1,11 @@
+.particles {
+  position: absolute;
+  background-color: #3aafa9;
+  width: 100vw;
+  height: 100vh;
+}
+
+.radial-menu-container {
+  position: relative;
+  z-index: -1;
+}

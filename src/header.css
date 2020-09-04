@@ -1,0 +1,44 @@
+.navbar {
+    transition: top 0.5s ease;
+}
+
+.navbar-hide {
+    top: -56px;
+}
+
+nav {
+    color: #222629;
+    background-color: #222629;
+}
+
+.navbar-nav ol {
+    list-style: decimal;
+    color: black;
+}
+
+ol li {
+    counter-increment: list;
+    list-style-type: none;
+    position: relative;
+}
+
+ol li:before {
+    color: white;
+    content: counter(list, decimal-leading-zero) ".";
+    left:-32px;
+    position: absolute;
+    text-align: right;
+    width: 26px;
+    margin-top: 0.5rem;
+    margin-left: 2.6rem;
+}
+
+.navbar-brand {
+    color: #86C232
+}
+
+.nav-link {
+    color: #86C232;
+    margin-left: 2.5rem;
+}
+
