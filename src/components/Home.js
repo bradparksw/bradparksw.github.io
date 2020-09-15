@@ -42,12 +42,14 @@ function Home() {
 
   return (
     <section id="home">
-      <header className="header">
         <div className="overlay">
           <div className="container-fluid home-container">
-            <div className="row">
-              <div className="col-sm-7 intro">
-                <h1> Hey! My name is 
+            <div className="row fullscreen d-flex align-items-center">
+              <div className="banner-content col-lg-5 col-md-12 justify-content-center intro">
+                <h6> <span id="greeting">Hey! My name is</span> 
+                  <br></br>
+                  <br></br>
+
                   <span> </span>
                   <span className="mobile-br"><br></br></span> 
                   <span class="name nowrap">
@@ -55,41 +57,40 @@ function Home() {
                     <span>R</span>
                     <span>A</span>
                     <span>D</span>
+                    <span>&nbsp;</span>
+                    <span>P</span>
+                    <span>A</span>
+                    <span>R</span>
+                    <span>K</span>
                   </span>
-                </h1>
-                <h1> I'm a <span id="swe">Software Engineer</span></h1>
-              </div>
-              <div className="col-sm-3">
+                </h6>
+                <h1 id="swe">Software Engineer</h1>
+                <div className="col-lg-8 col-md-7 col-xl-9 description">
+                  <p>Welcome to my website! I'm a 3<sup>rd</sup>  year student studying computer science at the University of Waterloo. I'm currently seeking a 4 month internship for Winter 2021. Connect with me to chat about literally anything!</p>
+                </div>
 
-              </div>
-            </div>
-          </div>
-          <div className="container-xl connect-container">  
-           <div className="row connect">
-              <div className="col-m-1 socials">
-                <button onClick={openLinkedin} class="btn btn-outline-info">
+                <button onClick={openLinkedin} class="btn btn-outline-info socials">
                   <i className="fab fa-linkedin" /> Linkedin
                 </button>
-              </div>
-              <div className="col-m-1 socials">
-                <button onClick={openGithub} type="button" class="btn btn-outline-dark">
+
+                <button onClick={openGithub} type="button" class="btn btn-outline-dark socials">
                   <i className="fab fa-github" /> Github
                 </button>
-              </div> 
-              <div className="col-m-1 socials">
-                <button onClick={openResume} type="button" class="btn btn-outline-warning">
-                  <i className="far fa-file" /> Resume
-                </button>
-              </div> 
-              <div className="col-m-1 socials">
-                <button onClick={openEmail} type="button" class="btn btn-outline-success">
+
+                <button onClick={openEmail} type="button" class="btn btn-outline-success socials">
                   <i className="far fa-envelope" /> Email
                 </button>
-              </div> 
+
+                <button onClick={openResume} type="button" class="btn btn-outline-secondary socials">
+                  <i className="far fa-file" /> Resume
+                </button>
+              </div>
+              <div className="banner-img col-lg-4 col-md-4">
+                <img id="developer" src="/images/dev.png" alt="developer"></img>
+              </div>
             </div>
           </div>
         </div>
-      </header>
     </section>
   )
 }

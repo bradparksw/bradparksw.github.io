@@ -49,3 +49,8 @@
     color: #fcceb1 !important;
     background-color: white !important;
 }
+
+#logo {
+    width: 2vw;
+    height: 1.5vw;
+}

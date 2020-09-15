@@ -28,7 +28,9 @@ function Header() {
 
   return (
     <nav className="navbar smart-scroll transparent navbar-inverse navbar-expand-md fixed-top" style={{padding: '1rem 2rem 1rem 2rem'}}>
-      <a className="navbar-brand" href="/#home">B</a>
+      <a  className="navbar-brand" href="/#home">
+        <img src="/images/logo.png" alt="logo" id="logo"></img>
+      </a>
       <button className="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarCollapse" aria-controls="navbarCollapse" aria-expanded="false" aria-label="Toggle navigation">
         <span className="navbar-toggler-icon">
           <i className="fa fa-navicon" style={{color:'#fff', fontSize:'28px'}}></i>
@@ -55,7 +57,6 @@ function Header() {
                 <a className="nav-link" href="/#contact">Contact Me</a>
             </li>
         </ol>
-        <button onClick={openResume} className="btn btn-outline-success my-2 my-sm-0 resume" type="button">Resume</button>
       </div>
       <div class="the-blur"></div>
     </nav>
