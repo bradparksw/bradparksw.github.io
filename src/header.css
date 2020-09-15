@@ -1,35 +1,39 @@
-.navbar {
-    transition: top 0.5s ease;
-    
+.smart-scroll{
+    position: fixed;
+    top: 0;
+    right: 0;
+    left: 0;
+    z-index: 500;
 }
-
-.navbar-hide {
-    top: -56px;
+.scrolled-down{
+    transform:translateY(-100%); transition: all 0.3s ease-in-out;
 }
-
+.scrolled-up{
+    transform:translateY(0); transition: all 0.3s ease-in-out;
+}
 
 .navbar-nav ol {
     list-style: decimal;
     color: black;
 }
 
-
 .navbar {
+    font-family: 'Poppins', sans-serif;
     font-size: 15px;
     background: none;
 }
 
 .navbar-brand {
-    color: #86C232
+    color: #fcceb1;
 }
 
 .nav-link {
-    color: #182628;
+    color: white;
     margin-left: 1.5rem;
 }
 
 .nav-link:hover {
-    color: #61892F;
+    color: #fcceb1;
 }
 
 .btn {
@@ -37,10 +41,11 @@
 }
 
 .resume {
-    color: black !important;
-    border-color: #182628 !important;
+    color: white !important;
+    border-color: white !important;
 }
 
 .resume:hover {
+    color: #fcceb1 !important;
     background-color: white !important;
 }
