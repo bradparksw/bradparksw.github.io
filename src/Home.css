@@ -1,25 +1,19 @@
-#home {
-    width: 100vw;
-    height: 100vh;
-
+.overlay{
     position: absolute;
-    top: 0%;
-    left: 0%;
-    white-space: pre-line;
-    font-family: Arial, Helvetica, sans-serif;
-    font-size: xx-large;
-    color: white;
-    text-align: center;
+    min-height: 100%;
+    min-width: 100%;
+    left: 0;
+    top: 0;
+    background: rgba(244, 244, 244, 0.79);
 }
 
-#intro {
+.intro{
     position: absolute;
-    left: 50%;
-    top: 45%;
-    -webkit-transform: translate(-50%, -50%);
-    transform: translate(-50%, -50%);
+    top: 30%;
+    margin: auto;
+    padding: 2em;
+    
 }
-
-#name {
-    color: #86C232;
+.intro h1{
+ color:#F97300 ;
 }
