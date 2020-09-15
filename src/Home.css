@@ -69,12 +69,13 @@
 
 .name {
 	font-family: 'Poppins', sans-serif;
+	font-weight: 900;
 	perspective: 1000px;
 	white-space: nowrap;
 }
 
 .name span:nth-child(1).active {
-	animation: balance 1.5s ease-out;
+	animation: balance 1.2s ease-out;
 	transform-origin: bottom left;
 }
 
@@ -113,7 +114,7 @@
 }
 
 .name span:nth-child(3).active {
-	animation: falling 2s ease-out;
+	animation: falling 1s ease-out;
 	transform-origin: bottom center;
 }
 
@@ -144,7 +145,7 @@
 }
 
 .name span:nth-child(4).active {
-	animation: rotate 1s ease-out;
+	animation: rotate 0.8s ease-out;
 }
 
 @keyframes rotate {
@@ -165,7 +166,28 @@
 }
 
 .description {
-	font-family: 'Lato', sans-serif;
+	font-family: 'Poppins', sans-serif;
+	font-weight: 300;
 	font-size: 1.1rem;
 	padding-left: 0.2rem !important;
+	color: white;
+}
+
+#resume {
+	color: #A83A55;
+	border-color: #A83A55;
+}
+
+#resume:hover {
+	background-color: #A83A55;
+	color: white;
+}
+#email {
+	color: #E14B56;
+	border-color: #E14B56;
+}
+
+#email:hover {
+	background-color: #E14B56;
+	color: white;
 }

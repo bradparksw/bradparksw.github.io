@@ -1,8 +1,6 @@
 import React, {useEffect} from 'react';
-import $ from 'jquery'
 
-function Skills() {
-
+function Experience() {
   return (
     <header className="header">
       
@@ -10,4 +8,4 @@ function Skills() {
   )
 }
 
-export default Skills;
+export default Experience;

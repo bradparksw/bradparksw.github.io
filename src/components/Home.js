@@ -77,11 +77,11 @@ function Home() {
                   <i className="fab fa-github" /> Github
                 </button>
 
-                <button onClick={openEmail} type="button" class="btn btn-outline-success socials">
+                <button onClick={openEmail} type="button" id="email" class="btn btn-outline-success socials">
                   <i className="far fa-envelope" /> Email
                 </button>
 
-                <button onClick={openResume} type="button" class="btn btn-outline-secondary socials">
+                <button onClick={openResume} type="button" id="resume" class="btn btn-outline-secondary socials">
                   <i className="far fa-file" /> Resume
                 </button>
               </div>
