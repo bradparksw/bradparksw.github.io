@@ -7,7 +7,7 @@
   position: absolute;
   top: 0;
   left: 0;
-  background-image: linear-gradient(#a1c4fd, #c2e9fb, #ffecd2, #fad0c4, #fecfef);
+  background-image: linear-gradient(#a1c4fd, #c2e9fb, #ffecd2, #f5efef, #cfd9df, #93a5cf);
   -ms-overflow-style: none;  /* IE and Edge */
   scrollbar-width: none;  /* Firefox */
 }

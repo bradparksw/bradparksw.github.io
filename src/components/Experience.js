@@ -1,4 +1,4 @@
-import React, {useEffect} from 'react';
+import React from 'react';
 import '../experience.css';
 import Separator from './Separator'
 
@@ -6,16 +6,16 @@ function Experience() {
   return (
     <section id="experience">
       <Separator />
-      <div class="container-fluid">
-        <h1 class="section-title">Work Experience</h1>
+      <div className="container-fluid">
+        <h1 className="section-title">Work Experience</h1>
         <br />
         <br />
-        <div class="timeline">
-          <div class="container-fluid">
-            <img class="rounded-circle" src="/images/listacross.png" class="company-img listacross" alt="listacross"></img>
-            <div class="box right">
-              <div class="content">
-                <img class="rounded-circle" src="/images/listacross.png" class="inline-company-img listacross" alt="listacross"></img>
+        <div className="timeline">
+          <div className="container-fluid">
+            <img src="/images/listacross.png" className="company-img listacross" alt="listacross" />
+            <div className="box right">
+              <div className="content">
+                <img src="/images/listacross.png" className="inline-company-img listacross" alt="listacross"></img>
                 <h4>ListAcross</h4>
                 <h4>Backend Engineer Intern | 2020 May. - Aug. </h4>
                 <ul>
@@ -27,11 +27,11 @@ function Experience() {
               </div>
             </div>
           </div>
-          <div class="container-fluid">
-            <img class="rounded-circle" src="/images/edisoft.png" class="company-img edisoft" alt="edisoft"></img>
-            <div class="box right">
-              <div class="content">
-                <img class="rounded-circle" src="/images/edisoft.png" class="edisoft inline-company-img" alt="edisoft"></img>
+          <div className="container-fluid">
+            <img src="/images/edisoft.png" className="company-img edisoft" alt="edisoft"></img>
+            <div className="box right">
+              <div className="content">
+                <img src="/images/edisoft.png" className="edisoft inline-company-img" alt="edisoft"></img>
               <h4>Edisoft</h4>
               <h4>Software Developer Intern | 2020 May. - Aug. </h4>
               <ul>
@@ -42,11 +42,11 @@ function Experience() {
               </div>
             </div>
           </div>
-          <div class="container-fluid">
-            <img class="rounded-circle" src="/images/fgfbrands.png" class="company-img fgfbrands" alt="fgfbrands"></img>
-            <div class="box right">
-              <div class="content">
-                <img class="rounded-circle" src="/images/fgfbrands.png" class="inline-company-img fgfbrands" alt="fgfbrands"></img>
+          <div className="container-fluid">
+            <img src="/images/fgfbrands.png" className="company-img fgfbrands" alt="fgfbrands"></img>
+            <div className="box right">
+              <div className="content">
+                <img src="/images/fgfbrands.png" className="inline-company-img fgfbrands" alt="fgfbrands"></img>
               <h4>FGF Brands</h4>
               <h4>Full Stack Developer Intern | 2019 May. - Aug. </h4>
               <ul>
@@ -57,11 +57,11 @@ function Experience() {
               </div>
             </div>
           </div>
-          <div class="container-fluid">
-          <img class="rounded-circle" src="/images/uw_robotics.png" class="company-img robotics" alt="robotics"></img>
-            <div class="box right">
-              <div class="content">
-              <img class="rounded-circle" src="/images/uw_robotics.png" class="inline-company-img robotics" alt="robotics"></img>
+          <div className="container-fluid">
+          <img src="/images/uw_robotics.png" className="company-img robotics" alt="robotics"></img>
+            <div className="box right">
+              <div className="content">
+              <img src="/images/uw_robotics.png" className="inline-company-img robotics" alt="robotics"></img>
               <h4>Waterloo Robotics Software Team</h4>
               <h4>Software Engineer | 2020 May. - Aug. </h4>
               <ul>

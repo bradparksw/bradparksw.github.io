@@ -138,7 +138,7 @@
   display: inline-block;
   margin-left: 10%;
   position: absolute;
-  width: 200px;
+  width: 180px;
 }
 
 .inline-company-img {
@@ -156,17 +156,17 @@
 }
 
 .company-img.listacross { 
-  margin-top: 6%;
+  margin-top: 4%;
 }
 
 .company-img.edisoft {
-  margin-top: 9vh;
+  margin-top: 10vh;
 }
 
 .company-img.fgfbrands {
-  margin-top: 6vh;
+  margin-top: 5vh;
 }
 
 .company-img.robotics {
-  margin-top: 10vh;
+  margin-top: 8vh;
 }
