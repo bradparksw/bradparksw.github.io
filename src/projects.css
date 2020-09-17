@@ -19,3 +19,7 @@
 .col-md-4 {
   padding: 0 !important;
 }
+
+.card-img-top {
+  padding: 60px !important;
+}

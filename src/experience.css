@@ -25,10 +25,12 @@
 
 /* Container around content */
 .box {
-  padding: 10px 00px;
+  padding: 10px 0px;
   position: relative;
   background-color: inherit;
   width: 50%;
+  
+  margin: 0 !important;
 }
 
 /* The circles on the timeline */
@@ -49,30 +51,10 @@
   z-index: 1;
 }
 
-/* Place the container to the left */
-.left {
-  left: 0;
-}
-
 /* Place the container to the right */
 .right {
   left: 35%;
 }
-
-/* Add arrows to the left container (pointing right) */
-.left::before {
-  content: " ";
-  height: 0;
-  position: absolute;
-  top: 22px;
-  width: 0;
-  z-index: 1;
-  right: 30px;
-  border: medium solid #fcceb1;
-  border-width: 10px 0 10px 10px;
-  border-color: transparent transparent transparent #fcceb1;
-}
-
 
 /* Fix the circle for containers on the right side */
 .right::after {

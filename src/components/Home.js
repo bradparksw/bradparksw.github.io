@@ -45,7 +45,7 @@ function Home() {
         <div className="overlay">
           <div className="container-fluid home-container">
             <div className="row fullscreen d-flex align-items-center">
-              <div className="banner-content col-lg-5 col-md-12 justify-content-center intro">
+              <div className="banner-content col-lg-5 col-md-8 justify-content-center intro">
                 <h6> <span id="greeting">Hey! My name is</span> 
                   <br></br>
                   <br></br>
@@ -85,7 +85,7 @@ function Home() {
                   <i className="far fa-file" /> Resume
                 </button>
               </div>
-              <div className="banner-img col-lg-4 col-md-4">
+              <div className="banner-img col-lg-4 col-md-6">
                 <img id="developer" src="/images/dev.png" alt="developer"></img>
               </div>
             </div>

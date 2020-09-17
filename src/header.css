@@ -5,6 +5,7 @@
     left: 0;
     z-index: 500;
 }
+
 .scrolled-down{
     transform:translateY(-100%); transition: all 0.3s ease-in-out;
 }
@@ -12,15 +13,11 @@
     transform:translateY(0); transition: all 0.3s ease-in-out;
 }
 
-.navbar-nav ol {
-    list-style: decimal;
-    color: black;
-}
-
 .navbar {
     font-family: 'Poppins', sans-serif;
     font-size: 15px;
-    background: none;
+    background-image: linear-gradient(#a1c4fd, #b9defc) ;
+    width: 100vw;
 }
 
 .navbar-brand {
@@ -34,10 +31,6 @@
 
 .nav-link:hover {
     color: #fcceb1;
-}
-
-.btn {
-    margin-left: 1.5rem;
 }
 
 #logo {

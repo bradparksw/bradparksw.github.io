@@ -27,13 +27,13 @@ function Header() {
   });
 
   return (
-    <nav className="navbar smart-scroll transparent navbar-inverse navbar-expand-md fixed-top" style={{padding: '1rem 2rem 1rem 2rem'}}>
+    <nav className="navbar smart-scroll transparent navbar-inverse navbar-expand-lg fixed-top" style={{padding: '1rem 2rem 1rem 2rem'}}>
       <a  className="navbar-brand" href="/#home">
         <img src="/images/logo.png" alt="logo" id="logo"></img>
       </a>
       <button className="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarCollapse" aria-controls="navbarCollapse" aria-expanded="false" aria-label="Toggle navigation">
         <span className="navbar-toggler-icon">
-          <i className="fa fa-navicon" style={{color:'#fff', fontSize:'28px'}}></i>
+        <i class="fa fa-navicon" style={{fontSize: "24px"}}></i>
         </span>
       </button>
       <div className="collapse navbar-collapse" id="navbarCollapse">

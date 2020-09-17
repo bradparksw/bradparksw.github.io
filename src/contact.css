@@ -14,3 +14,24 @@
 #thank {
     font-weight: 700;
 }
+
+input[type="text"]
+{
+    background: transparent;
+    border: none;
+    border-bottom: solid 1px black;
+}
+
+input[type="email"]
+{
+    background: transparent;
+    border: none;
+    border-bottom: solid 1px black;
+}
+
+#materialContactFormMessage
+{
+    background: transparent;
+    border: none;
+    border-bottom: solid 1px black;
+}

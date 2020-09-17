@@ -8,7 +8,6 @@ function Projects() {
       <Separator />
       <h1 className="section-title">Projects</h1>
       <br />
-      <br />
       <div className="container-xl">
         <div class="card-deck">
           <div class="card">
@@ -59,7 +58,7 @@ function Projects() {
               <h5 class="card-title">Instagram Web Analytics</h5>
               <p class="card-text">A web app that allows user to view analytics of their account, or other public account, without saving any data.</p>
               <p class="card-text"><small class="text-muted">Express.js, React, Node.js, AWS</small></p>
-              <p class="card-text"><small><a href="https://google.ca">Currenttly in Progress</a></small></p>
+              <p class="card-text"><small><a href="#projects">Currently in Progress</a></small></p>
             </div>
           </div>
           <div class="card" style={{visibility: "none", border: "none" }}>

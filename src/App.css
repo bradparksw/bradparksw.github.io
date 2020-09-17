@@ -1,17 +1,18 @@
-.radial-menu-container {
-  position: relative;
-  z-index: -1;
-}
-
 .App {
   position: absolute;
   top: 0;
   left: 0;
-  background-image: linear-gradient(#a1c4fd, #c2e9fb, #ffecd2, #f5efef, #cfd9df, #93a5cf);
-  -ms-overflow-style: none;  /* IE and Edge */
-  scrollbar-width: none;  /* Firefox */
+  background-image: linear-gradient(#a1c4fd, rgb(194, 233, 251), #ffecd2, #f5efef, #cfd9df, #93a5cf);
+  display: inline-block;
+  min-width: 98vw;
 }
 
 html {
   scroll-behavior: smooth !important;
+}
+
+@media screen and (min-width: 2200px) {
+  .App {
+    min-width: 99.3vw;
+  }
 }
