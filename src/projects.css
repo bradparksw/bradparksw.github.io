@@ -11,3 +11,11 @@
     font-weight: 300;
     text-align: center;
 }
+
+.container-xl {
+  padding: 10px;
+}
+
+.col-md-4 {
+  padding: 0 !important;
+}

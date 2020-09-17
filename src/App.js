@@ -20,7 +20,7 @@ class App extends Component {
         <Skills />
         <Projects />
         <Contact />
-
+        <Separator />
       </div>
     )
   }
