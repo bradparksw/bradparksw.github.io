@@ -1,0 +1,16 @@
+
+.section-title {
+    color: #fdb8ae;
+    padding-left: 14%;
+    padding-bottom: 1vw;
+    font-family: 'Poppins', sans-serif;
+    font-weight: 700;
+  }
+
+.card {
+    font-family: 'Poppins', sans-serif;
+}
+
+#thank {
+    font-weight: 700;
+}
