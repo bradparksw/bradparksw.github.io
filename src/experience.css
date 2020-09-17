@@ -2,7 +2,7 @@
 .timeline {
   position: relative;
   max-width: 1600px;
-  margin-left: 5%;
+  margin-left: 14%;
   margin-right: 0;
 }
 
@@ -19,7 +19,7 @@
 
   top: 0;
   bottom: 0;
-  left: 50%;
+  left: 35%;
   margin-left: -5px;
 }
 
@@ -56,7 +56,7 @@
 
 /* Place the container to the right */
 .right {
-  left: 50%;
+  left: 35%;
 }
 
 /* Add arrows to the left container (pointing right) */
@@ -76,7 +76,7 @@
 
 /* Fix the circle for containers on the right side */
 .right::after {
-  left: -16px;
+  left: -20px;
 }
 
 /* The actual content */
@@ -93,7 +93,7 @@
 @media screen and (max-width: 600px) {
   /* Place the timelime to the left */
   .timeline::after {
-  left: 31px;
+  left: 46px;
   }
   
   /* Full-width containers */
@@ -127,12 +127,46 @@
 }
 
 .section-title {
-  background: -webkit-linear-gradient(#fcceb1, #fdb8ae);
-  -webkit-background-clip: text;
-  -webkit-text-fill-color: transparent;
+  color: #fdb8ae;
   padding-left: 14%;
-  padding-bottom: 2vw;
+  padding-bottom: 1vw;
   font-family: 'Poppins', sans-serif;
   font-weight: 700;
 }
 
+.company-img {
+  display: inline-block;
+  margin-left: 10%;
+  position: absolute;
+  width: 200px;
+}
+
+.inline-company-img {
+  display: none;
+}
+
+@media screen and (max-width: 1300px) {
+  .company-img {
+    display: none;
+  }
+  .inline-company-img {
+    display: block;
+    width: 200px;
+  }
+}
+
+.company-img.listacross { 
+  margin-top: 6%;
+}
+
+.company-img.edisoft {
+  margin-top: 9vh;
+}
+
+.company-img.fgfbrands {
+  margin-top: 6vh;
+}
+
+.company-img.robotics {
+  margin-top: 10vh;
+}

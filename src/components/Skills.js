@@ -4,9 +4,9 @@ import $ from 'jquery'
 function Skills() {
 
   return (
-    <header className="header">
+    <section id="skills">
       
-    </header>
+    </section>
   )
 }
 

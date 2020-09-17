@@ -55,7 +55,6 @@ function Header() {
             </li>
         </ol>
       </div>
-      <div class="the-blur"></div>
     </nav>
   )
 }

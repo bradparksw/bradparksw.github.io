@@ -40,16 +40,6 @@
     margin-left: 1.5rem;
 }
 
-.resume {
-    color: white !important;
-    border-color: white !important;
-}
-
-.resume:hover {
-    color: #fcceb1 !important;
-    background-color: white !important;
-}
-
 #logo {
     width: 2vw;
     height: 1.5vw;
