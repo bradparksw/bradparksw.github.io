@@ -1,15 +1,13 @@
 @import url('https://fonts.googleapis.com/css?family=Anton|Roboto');
 
 .overlay{
-    position: absolute;
+    position: relative;
     min-height: 100vh;
     min-width: 100%;
-    left: 0;
-    top: 0;
 }
 
 .home-container {
-	margin-top: 23vh;
+	padding-top: 23vh;
 }
 
 .intro{
@@ -170,16 +168,16 @@
 	font-weight: 300;
 	font-size: 1.1rem;
 	padding-left: 0.2rem !important;
-	color: white;
+	color: black;
 }
 
 #resume {
-	color: #A83A55;
-	border-color: #A83A55;
+	color: #5F2756;
+	border-color: #5F2756;
 }
 
 #resume:hover {
-	background-color: #A83A55;
+	background-color: #8B86C4;
 	color: white;
 }
 #email {
